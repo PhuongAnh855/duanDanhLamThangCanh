@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.5;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+#banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffa4c2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#banner .box-left {
+  max-width: 60%;
+}
+
+#banner h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#banner p {
+  margin-bottom: 10px;
+}
+
+#banner button {
+  background-color: #faf7f7;
+  color: #ffa4c2;
+  border: 1px solid;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#banner .box-right {
+  width: 35%;
+  height: 150px;
+  background: url("angiang-banner.jpg") center/cover no-repeat;
+}
+
+#places h2 {
+  color: #ffa4c2;
+  margin-bottom: 15px;
+}
+
+.place {
+  background-color: #111;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.place h3 {
+  color: #ffa4c2;
+  margin-bottom: 8px;
+}
+
+.place p {
+  margin-bottom: 8px;
+}
+
+.btn {
+  background-color: #ffa4c2;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
